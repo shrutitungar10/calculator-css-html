@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>calculator</title>
+    <style>
+       .cal-body{
+        height: 440px;
+        width: 350px;
+        background-color: rgb(46, 46, 46);
+        margin: 30px auto;
+        padding: 20px;
+        padding-top: 38px;
+        border-radius: 12px;
+       }
+       .screen{
+        background-color: #a1af77;
+        text-align: right;
+        width: 290px;
+        height: 50px;
+        display: block;
+        margin: 0px auto;
+        margin-bottom: 30px;
+        font-size: 25px;
+        padding: 5px 10px;
+       }
+       .btn-container{
+        display: flex;
+        background-color: rgb(105, 104, 104);
+        flex-direction: column;
+        height: 290px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 13px;
+        margin: 8px;
+        border-radius: 7px;
+       }
+       .button{
+        width: 55px;
+        text-align: center;
+        padding: 2px 0;
+        font-size: 20px;
+        margin: 4px;
+        border: 0.5px solid black;
+        border-radius: 17px;
+        cursor: pointer;
+       }
+       .button:hover{
+        box-shadow: 0 0 5px 0 white;
+        transition: 0.5s;
+       }
+       .btn1{
+         background-color: rgb(252, 159, 59);
+         color: white;
+         height: 45px;
+         border-radius: 8px;
+       }
+       .btn2{
+        background-color: rgb(122, 204, 204);
+       }
+       .btn3{
+        background-color: rgb(251, 86, 57);
+       }
+    </style>
+</head>
+<body>
+    <div class="cal-body">
+        <input type="text" value="0" class="screen"/>
+        <div class="btn-container">
+            <button class="button btn4">Cos</button>
+            <button class="button">Sin</button>
+            <button class="button">Rad</button>
+            <button class="button">7</button>
+            <button class="button">6</button>
+            <button class="button">1</button>
+            <button class="button btn4">0</button>
+            <button class="button">Tan</button>
+            <button class="button">Log</button>
+            <button class="button">Deg</button>
+            <button class="button">8</button>
+            <button class="button">5</button>
+            <button class="button btn4">2</button>
+            <button class="button">.</button>
+            <button class="button">(</button>
+            <button class="button">Exp</button>
+            <button class="button">x!</button>
+            <button class="button">9</button>
+            <button class="button btn4">4</button>
+            <button class="button">3</button>
+            <button class="button">,</button>
+            <button class="button">)</button>
+            <button class="button">π</button>
+            <button class="button">÷</button>
+            <button class="button">+</button>
+            <button class="button">-</button>
+            <button class="button">X</button>
+            <button class="button">√</button>
+            <button class="button btn2">ON</button>
+            <button class="button btn3">ANS</button>
+            <button class="button btn1">DEL</button>
+            <button class="button btn1">AC</button>
+            <button class="button btn1">=</button>  
+        </div>
+    </div>
+</body>
+</html>
